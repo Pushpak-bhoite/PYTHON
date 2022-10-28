@@ -1,7 +1,8 @@
 from array import *
 stu_roll = array('i',[101,102,103,104,105]) # "i" is type code
-print(stu_roll [0])
-print(stu_roll [1])
-print(stu_roll [2])
-print(stu_roll [3])
-print(stu_roll [4])
+for element in stu_roll:
+    print(element)
+    # *** OR ***
+n=len(stu_roll)
+for element in range(n):
+    print(element)
